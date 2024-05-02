@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <title> Mr. A </title>
+        
+        <style> 
+        
+           #port{
+               text-align:center;
+               background-color:aqua;
+               margin:auto;
+               color:blue;
+           }
+           a{
+              text-decoration:none; 
+              color:black;
+           }
+            a:hover{
+                color:red;
+            }
+            
+            #header{
+                background-color:#4caf50;
+            }
+            table{
+                width:100%;
+                
+            }
+            
+            /* end of css header */
+            /* start home css */ 
+           #home{
+               text-align:center;
+               background-color:black;
+               color:white;
+               padding:5%;
+           }
+           .greeting{
+               animation-name: example;
+               animation-duration:15s;
+           }
+           @keyframes example{
+               0%{color:red;}
+                25%{color:yellow;}
+                 50%{color:Blue;}
+                  100%{color:green;}
+               
+           }
+           
+         /* end of home */ 
+       /* body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Verdana', sans-serif;
+            width:100%;   
+        } */
+
+        /* end of home */ 
+        
+        /* start the about section */
+        #about{
+           width:100%;
+           margin:auto;
+           background-color:lightblue;
+           color:red;
+           padding:20px;
+           box-sizing:border-box;
+        }
+        #about h1{
+            color:green;
+            text-align:center;
+            
+        }
+        #about img{
+            width:100px;
+            height:auto;
+            display:block;
+            margin:auto;
+        }
+        #about p {
+            font-size:18px;
+            margin-bottom:15px;
+        }
+        #about hr{
+            border:none;
+            border-top: 3px solid red;
+            width:40%;
+            margin:auto;
+            color:red;
+        }
+        
+        /* end of the skills section */ 
+        
+         /* start the css for the skill section */
+         #skills{
+             background-color:#4caf6d;
+             color:blue;
+             margin:auto;
+         }
+         #skills-text {
+             font-size:2em;
+             margin:auto; 
+             text-align:center;
+              background-color:#4caf6d;
+         }
+         
+         
+         #skills ul {
+             list-style-type:none;
+             padding:10px;
+             margin:auto; 
+         }
+         #skill li {
+             font-family:'verdana';
+             font-size:18px;
+         }
+         #skills-line{
+             
+             border:none;
+             border-top:3px solid red;
+             margin:auto;
+         }
+         /* end of the skills CSS sction */ 
+         /*start with the project section */ 
+         #projects{
+             background-color:#4caf6d; 
+             color:blue;
+             margin:auto;
+         }
+         #project-text{
+             font-size:2em; 
+             margin:auto;
+         }
+         #projects ul {
+             list-style-type:none;
+             padding:10px;
+             margin:auto;
+         }
+         
+         #projects-li{
+             font-family: 'Verdana';
+             font-size:18px;
+             margin-bottom:10px;
+         }
+         #projects-line{
+             border-top:3px solid red ; 
+             margin:auto;
+         }
+         /* end of the projects css section */ 
+         /* start contact section */ 
+         #contact {
+             width:100%;
+             border-collapse:collapse;
+             text-align:center;
+         }
+         #contact h1 {
+             margin:0;
+             color:#2c3e50;
+         }
+         #contact hr {
+             border-top:2px solid red ;
+             margin:10px;
+         }
+         
+         #contact td {
+              padding:10px;
+         }
+         label {
+             font-weight:bold;
+        
+         }
+         input,textarea{
+             width:100%;
+             padding:5px;
+             border:2px solid blue;
+             border-radius:8px;
+         }
+         button {
+             background-color:#2980b9;
+             color:;
+             padding:10px;
+             border:none;
+             border-radius:5px;
+             cursor:pointer;
+             transition:background-color 0.3s;
+         }
+         button:hover {
+             background-color:green;
+         }
+         body{
+             background-color:lightgray;
+         }
+         /*end of the contact section */ 
+         /* stsrt with the media CSS section*/
+         .fa:hover{
+             opacity:0.9;
+         }
+         .fa-facebook{
+             background:#007bb5;
+             color:white;
+         }
+         .fa-instagram{
+             background:#d62976;
+             color:white;
+         }
+         .fa-youtube-play{
+             background:#d6c6c6;
+             color:#f50909;
+         }
+         .fa {
+             padding:15px;
+             font-size:40px;
+             width:60px;
+             margin:5px;
+         }
+        </style>
+    </head>
+
+    <body>
+        <!--Inside the body tag is where you put all the cool stuff
+        you want on your page!-->
+        <h1 id="port"> Portfolio </h1>
+        <table id="header"   border="0"> 
+        <tr> 
+           <td> <h3> Mr. A</h3></td>    
+            <td> </td>
+            <td> <a href="https://www.w3schools.com/html/default.asp"> Home </a></td>
+            <td> | </td>
+            <td> <a href="#about"> About </a></td>
+             <td> | </td>
+            <td> <a href="#skills">Skills </a></td>
+             <td> | </td>
+            <td> <a href="#Projects"> Projects </a></td>
+             <td> | </td>
+            <td> <a href="#Contact"> Contact </a></td>
+        </tr> 
+        
+        </table>
+        <!-- end of the header --> 
+        <!--  start home --> 
+        
+        
+    <header id="home"> 
+    
+    <h3 class="greeting "> Welcome to my Website </h3>
+    
+    </header>
+      <!-- end of home--> 
+      <!-- start with the About section (this a comment ) -->
+      <table id="about"> 
+       <tr> 
+       <td> 
+       <h1> About Me </h1>
+       <hr> <!-- hr stand for horizontal rule --> 
+       <br> <!-- stand line break --> 
+       <img src= "https://codehs.com/uploads/28c0e0c0141486f83c41b6a10b76dffc "  alt="profile picture" width="90px" height="90px">
+       <p> 
+       I am a Computer Science teacher at Creekside High 
+       </p>
+       <p>
+        I have experience using HTML, CSS, and JAvaScript
+        </p>
+        <p> 
+        Cheers,<br> 
+        <em> <strong> Kangni</strong></em>
+        </p>
+        </td>
+       
+       </tr>
+      </table>
+    <!-- End of the About section --> 
+    <!-- start the skills section --> 
+    
+    <h1 id="skills-text"> Skills </h1>
+    <hr id="skills-line">  
+    <ul  id="skills"> 
+     <li> 
+     Web Development:
+     <br>
+     HTML: 
+     <a href="https://www.w3schools.com/html/default.asp " > <img src= "https://codehs.com/uploads/778c3336d3269bc80293f3114a604819 " width="20px"> </a>
+     <br>
+     CSS :
+     <a href="https://www.w3schools.com/html/default.asp " > <img src= "https://codehs.com/uploads/778c3336d3269bc80293f3114a604819 " width="20px"> </a>
+     <br>
+     Javascript:
+     <a href="https://www.w3schools.com/html/default.asp " > <img src= "https://codehs.com/uploads/778c3336d3269bc80293f3114a604819 " width="20px"> </a>
+     <br>
+     </li>
+    
+    </ul>
+    <!-- End of the html skill --> 
+    <!-- start the html code for the projects section--> 
+    <h1 id="projects"> Projects</h1> 
+    <hr id="projects-line">
+    <ul id ="projects"> 
+    <li> Weather 
+      <p> I worked on the weather app using HTML and CSS </p>
+    </li>
+    <li> 
+    Personal Portfolio 
+       <p> I built my own personal portfolio  using HTML and CSS</p> </li>
+    
+    
+    </ul>
+    
+    <!-- end of the project section --> 
+    <!-- start with the contact section--> 
+    <table id="contact" > 
+    <tr>  
+    <td colspan="2">
+        <h1> Contact </h1>
+        <hr> 
+    </td>
+ </tr>
+ <tr> 
+    <td  width="30%">
+     <label  for="name"> Name </label>
+     </td>
+    <td width="70%"> 
+        <input type="text" id="name" name="name">
+    </td>
+ 
+ </tr>
+     <tr> 
+    <td  width="30%">
+     <label  for="email"> Email </label>
+     </td>
+    <td width="70%"> 
+        <input type="email" id="email" name="email">
+    </td>
+ 
+ </tr>
+    
+     <tr> 
+    <td  width="30%">
+     <label  for="number"> Number </label>
+     </td>
+    <td width="70%"> 
+        <input type="number" id="number" name="number">
+    </td>
+ 
+ </tr>
+ <tr>
+        <td width="30%">
+            <label for="message">Message</label>
+        </td>
+        <td width="70%">
+            <textarea id="message" name="message" rows="5"></textarea>
+        </td>
+    </tr>
+    <tr> 
+       <td width="30%"></td>
+       <td  width="70%">
+          <button type="submit"> <em><strong> Submit</strong></em></button>
+    <hr>
+    
+    </tr>
+    
+    </table>
+    
+    <!-- end of the contact --> 
+    <!-- start of the social section --> 
+    
+    <center> 
+    <h1> </h1>
+    <h3 id="media"> Social Media </h3>
+    <a href="#" class="fa fa-facebook"> </a>
+    <a href="#" class="fa fa-instagram"> </a>
+    <a href="#" class="fa fa-youtube-play"> </a>
+    <h6> @Copyright 2026 by Mr. Amouzougan All rights revered </h6>
+
+    </center>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    </body>
+</html>
